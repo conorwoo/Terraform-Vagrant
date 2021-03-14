@@ -45,10 +45,10 @@ Vagrant.configure("2") do |config|
     end
 
 
-    # Provisioning the switch
-    config.vm.provision "ansible" do |ansible|
-    ansible.playbook = "ansible_provision.yaml"
-    ansible.inventory_path = "./hosts.yaml"
-    ansible.raw_arguments = ["--connection=paramiko"]
-    end
+#    # Provisioning the switch
+#     config.vm.provision "ansible" do |ansible|
+#     ansible.playbook = "ansible_provision.yaml"
+#     ansible.inventory_path = "./hosts.yaml"
+#     ansible.raw_arguments = ["--connection=paramiko"]
+#     end
 end
