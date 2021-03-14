@@ -1,0 +1,22 @@
+---
+# Connection details for SSH/CLI Access
+provider_ssh:
+  host: 127.0.0.1
+  port: 3222
+  username: vagrant
+  password: vagrant
+#  transport: cli
+
+interfaces:
+    - name: Loopback1
+      desc: Sample Network Management interface
+      ip_address: 20.20.20.20
+      subnet_mask: 255.255.255.0
+    - name: Gi2
+      desc: Link to other switch
+      ip_address: 172.12.12.2
+      subnet_mask: 255.255.255.0
+    - name: Gi3
+      desc: Management Interface
+      ip_address: 172.28.128.12
+      subnet_mask: 255.255.255.0

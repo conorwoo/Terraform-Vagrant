@@ -1,0 +1,7 @@
+[sw]
+abc1-nag1
+abc1-nag2
+
+[all:vars]
+ansible_network_os = ios
+ansible_python_interpreter="/usr/bin/python3"
