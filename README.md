@@ -2,8 +2,7 @@
 
 ##Step1:##
  Terrform folder 
- 
-    run **Terraform apply** to launch ec2 instant in AWS
+     run **Terraform apply** to launch ec2 instant in AWS
     
     tools such as *virtualbox, vagrant, ansible, py3* will be installed automatically after ec2 spinned up
  
