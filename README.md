@@ -9,7 +9,7 @@
 ## Step2:
 ### Vagrant folder 
     run **vagrant up** to launch vm such as ios-xe, ios-xr, nxos, etc
-    pre-build your network topolegy by virtually design the physical connection
+    pre-build your network Topology by virtually design the physical connection
 
  
 ## Step3:
